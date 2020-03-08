@@ -14,4 +14,3 @@ my_collect(argument) do
   while i < argument.length
     argument[i].split(" ").first
   end
-end
