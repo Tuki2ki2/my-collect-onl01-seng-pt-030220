@@ -12,7 +12,10 @@ end
 
 
 my_collect(argument) do
-  argument.collect do |name|
-    argument[name].split(" ").first
+i = 0 
+while i < argument.length 
+  argument[i].split(" ").first
+    i+=1 
   end
+  argument
 end
