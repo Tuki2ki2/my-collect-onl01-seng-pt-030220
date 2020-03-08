@@ -13,6 +13,6 @@ end
 
 my_collect(argument) do
   argument.collect do |name|
-    argument(name).split(" ").first
+    argument[name].split(" ").first
   end
 end
