@@ -4,8 +4,9 @@ def my_collect(argument)
   while i < argument.length
     new << yield(argument[i])
     i+=1
-  end
-  new
+    end
+    new
+end
 end
 
 
