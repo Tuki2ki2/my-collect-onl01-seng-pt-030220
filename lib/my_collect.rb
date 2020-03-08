@@ -7,7 +7,6 @@ def my_collect(argument)
     end
     new
 end
-end
 
 
 my_collect(argument) do
@@ -15,3 +14,4 @@ my_collect(argument) do
   while i < argument.length
     argument[i].split(" ").first
   end
+end
