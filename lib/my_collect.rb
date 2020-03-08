@@ -13,4 +13,4 @@ my_collect(argument) do
   argument.collect do |name|
     argument.split(" ").first
   end
-  
+end
