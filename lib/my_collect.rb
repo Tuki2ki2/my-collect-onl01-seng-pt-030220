@@ -10,8 +10,7 @@ end
 
 
 my_collect(argument) do
-  i = 0
-  while i < argument.length
-    argument[i].split(" ").first
+  argument.collect do |name|
+    argument.split(" ").first
   end
-end
+  
