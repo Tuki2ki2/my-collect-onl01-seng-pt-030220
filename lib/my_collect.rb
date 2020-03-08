@@ -1,4 +1,4 @@
-argument = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'] 
+argument = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
 
 def my_collect(argument)
   new_array = []
