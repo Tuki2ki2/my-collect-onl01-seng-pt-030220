@@ -12,10 +12,10 @@ end
 
 
 my_collect(argument) do
-i = 0 
-while i < argument.length 
+i = 0
+while i < argument.length
   argument[i].split(" ").first
-    i+=1 
+    i+=1
   end
   argument
 end
